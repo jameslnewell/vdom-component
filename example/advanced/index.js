@@ -8,4 +8,4 @@ var render = queue(document.getElementById('app'), function() {
 
 render();
 
-//TODO: get https://github.com/angular/zone.js working or wrap xhr etc
+//TODO: get https://github.com/angular/zone.js working or wrap xhr etc - need to override h because with onclick .addEventListener isn't called

@@ -6,7 +6,10 @@
     "virtual-dom": "^2.1.1"
   },
   "scripts": {
-    "example.build": "browserify example/index.js -o example/build.js --debug",
-    "example.watch": "watchify example/index.js -o example/build.js --debug"
-  }
+    "example.build": "browserify example/simple/index.js -o example/simple/build.js --debug",
+    "example.watch": "watchify example/simple/index.js -o example/simple/build.js --debug",
+    "example.adv.build": "browserify example/advanced/index.js -o example/advanced/build.js --debug",
+    "example.adv.watch": "watchify example/advanced/index.js -o example/advanced/build.js --debug"
+  },
+  "license": "MIT"
 }
