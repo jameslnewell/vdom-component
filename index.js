@@ -1,7 +1,9 @@
-var h = require('virtual-dom/h');
 var Component = require('./lib/component');
 
-module.exports = h;
-module.exports.component = function(module, props) {
+module.exports = function(module, props) {
   return new Component(module, props);
+};
+
+module.exports.widgetise = function(module) {
+  return new Component(module);
 };
