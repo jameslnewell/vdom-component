@@ -1,0 +1,12 @@
+{
+  "name": "vdom-component",
+  "version": "0.0.1",
+  "devDependencies": {
+    "vdom-live": "^1.0.4",
+    "virtual-dom": "^2.1.1"
+  },
+  "scripts": {
+    "example.build": "browserify example/index.js -o example/build.js --debug",
+    "example.watch": "watchify example/index.js -o example/build.js --debug"
+  }
+}
