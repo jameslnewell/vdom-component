@@ -52,22 +52,24 @@ Component framework built on `virtual-dom`.
 
 ### controller
 
-#### .onInit()
+#### .$init()
 
 Called after the component state is initialised.
 
-#### .onAttach(el)
+#### .$afterAttach(el)
 
 Called after the component has been attached to the DOM.
 
-#### .onDetach(el)
+#### .$beforeDetach(el)
 
-Called before the component has been removed from the DOM.
+Called before the component has been detached from the DOM.
   
 ## ToDo
 
-- JSX
+- context e.g. inject dispatcher
+- render loop/event
 - plugin api for stuff like default props and state
+- JSX
 
 
 ## License
